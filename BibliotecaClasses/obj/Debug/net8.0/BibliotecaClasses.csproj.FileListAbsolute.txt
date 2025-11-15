@@ -1,0 +1,4 @@
+C:\UNI\25-25POO\ProjetoPoon31504\BibliotecaClasses\obj\Debug\net8.0\BibliotecaClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNI\25-25POO\ProjetoPoon31504\BibliotecaClasses\obj\Debug\net8.0\BibliotecaClasses.AssemblyInfoInputs.cache
+C:\UNI\25-25POO\ProjetoPoon31504\BibliotecaClasses\obj\Debug\net8.0\BibliotecaClasses.AssemblyInfo.cs
+C:\UNI\25-25POO\ProjetoPoon31504\BibliotecaClasses\obj\Debug\net8.0\BibliotecaClasses.csproj.CoreCompileInputs.cache
