@@ -5,9 +5,11 @@
 /// Descrição: As classes neste ficheiro servem para guardar as informações pessoais
 /// </summary>
 
+using BibliotecaClasses;
 using System;
+using System.Collections.Immutable;
 
-namespace ProjetoPoon31504
+namespace BibliotecaClasses
 {
     /// <summary>
     /// Entidade base: abstrata para não ser criada exteriormente.
@@ -26,6 +28,18 @@ namespace ProjetoPoon31504
         private char genero;
         #endregion
         #region Construtores
+        public Pessoa()
+        {
+            this.id = -1;
+            this.nome= string.Empty;
+            this.sobrenome= string.Empty;
+            this.nif= string.Empty;
+            this.morada= string.Empty;
+            this.telefone= 0;
+            this.dataNascimento= DateOnly.MinValue;
+            this.genero= 'I';
+
+        }
         public Pessoa(int id, String nome, String sobrenome, String nif,String morada, int telefone, DateOnly dataNasc, char genero)
         {
             this.id = id;
@@ -67,7 +81,7 @@ namespace ProjetoPoon31504
         }
         public String GeneroExtenso()
         {
-            return (Genero == 'M') ? "Masculino" : "Feminino";
+            return (Genero == 'M') ? "Masculino" : Genero=='F' ? "Feminino" : "Atributo Vazio";
         }
         #endregion
         #region Overrides
@@ -129,18 +143,11 @@ namespace ProjetoPoon31504
         #endregion
 
         #region Construtor
-        public Funcionario(int id,
-                           string nome,
-                           string sobrenome,
-                           string nif,
-                           string morada,
-                           int telefone,
-                           DateOnly dataNasc,
-                           char genero) : base(id, nome, sobrenome, nif, morada, telefone, dataNasc, genero)
+        public Funcionario()
         {
             numFuncionario = -1;
             dataContratacao = new DateOnly();
-            salarioHora = 10.2M;
+            salarioHora = 5.0M;
             emailProfissional = string.Empty;
             departamento = string.Empty;
             cargo = string.Empty;
@@ -187,11 +194,33 @@ namespace ProjetoPoon31504
         public string Turno { get { return turno; } set { turno = value; } }
         public bool Ativo { get { return ativo; } set { ativo = value; } }
         #endregion
-
+        #region Metodos
+        public int ObterAnosServico()
+        {
+            return DateTime.Now.Year - dataContratacao.Year;
+        }
+        //o inteiro que devolve é o código de erro
+        public int AumentarSalario(decimal percentagem)
+        {
+            if (percentagem <= 0) 
+            {
+                return 201;
+            }
+            this.salarioHora *= (1+percentagem);
+            return 1;
+        }
         public override string GetTipo()
         {
             return "Funcionário";
         }
+        public override string ToString()
+        {
+            return $"Funcionario[numFuncionario={numFuncionario}, nome='{Nome} {Sobrenome}', " +
+                   $"departamento='{departamento}', cargo='{cargo}', turno='{turno}', " +
+                   $"salarioHora={salarioHora:F2}€, ativo={ativo}, anosServico={ObterAnosServico()}]";
+        }
+        #endregion
+
         #region Operadores
         public static bool operator ==(Funcionario esquerda, Funcionario direita)
         {
@@ -223,11 +252,18 @@ namespace ProjetoPoon31504
         private int numeroUtente;
         private bool internado;
         private string contactoEmergencia;
-        private string alergias;
+        private string alergias; //alterar para uma estrutura de dados com classe alergia
         //Inserir estrutura de dados para adicionar consultas que participou e internamentos
         #endregion
 
         #region Construtor
+        public Paciente()
+        {
+            numeroUtente = -1;
+            internado = false;
+            contactoEmergencia = string.Empty;
+            alergias = string.Empty;
+        }
         public Paciente(int id,
                         string nome,
                         string sobrenome,
@@ -255,6 +291,65 @@ namespace ProjetoPoon31504
         public string ContactoEmergencia { get { return contactoEmergencia; } set { contactoEmergencia = value; } }
         public string Alergias { get { return alergias; } set { alergias = value; } }
         #endregion
+        /// <summary>
+        /// Função para adicionar alergias ao paciente
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+
+        public int AdicionarAlergia(string alergia)
+        {
+            if (alergia.Equals(string.Empty))
+            {
+                return 5;
+            }
+            this.alergias += (";" +alergia);
+            return 1;
+            
+        }
+        /// <summary>
+        /// Função para remover  alergias ao paciente
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+        public int RemoverAlergia(string alergia)
+        {
+            if (this.alergias.Contains(alergia))
+            {
+                this.alergias = this.alergias.Replace(alergia + ";", "")
+                .Replace(";" + alergia, "")
+                .Replace(alergia, "");
+                return 1;
+            }
+            return 5;
+        }
+        /// <summary>
+        /// Função para obter a útima consulta que um paciente participou
+        /// </summary>
+        /// <returns>Consulta</returns>
+        public Consulta ObterUltimaConsulta()
+        {
+            //Falta adicionar estutura de dados e completar
+            return new Consulta();
+        }
+        /// <summary>
+        /// Função para retornar se um paciente pode receber alta ou não
+        /// </summary>
+        /// <returns>true se está apto</returns>
+        public bool AptoAAlta()
+        {
+            //Falta adicionar estutura de dados internamentos
+            return true;
+        }
+        /// <summary>
+        /// Função para dar alta ao paciente
+        /// </summary>
+        /// <returns>true se está apto</returns>
+        public int DarAlta()
+        {
+            if(this.AptoAAlta()) { return 0; }
+            //Falta adicionar estutura de dados internamentos
+            
+            return 1;
+        }
 
         public override string GetTipo()
         {
@@ -272,8 +367,9 @@ namespace ProjetoPoon31504
         #region Atributos
         private string especialidade;
         private string numeroOrdem;
-        private bool plantonista;
+        private bool fazUrgencias;
         private string gabinete;
+        //Falta adicionar estrutura Consultas
         #endregion
 
         #region Construtor
@@ -303,7 +399,7 @@ namespace ProjetoPoon31504
         {
             this.especialidade = especialidade;
             this.numeroOrdem = numeroOrdem;
-            this.plantonista = plantonista;
+            this.fazUrgencias = plantonista;
             this.gabinete = gabinete;
         }
         #endregion
@@ -311,13 +407,86 @@ namespace ProjetoPoon31504
         #region Propriedades
         public string Especialidade { get { return especialidade; } set { especialidade = value; } }
         public string NumeroOrdem { get { return numeroOrdem; } set { numeroOrdem = value; } }
-        public bool Plantonista { get { return plantonista; } set { plantonista = value; } }
+        public bool Plantonista { get { return fazUrgencias; } set { fazUrgencias = value; } }
         public string Gabinete { get { return gabinete; } set { gabinete = value; } }
         #endregion
-
+        /// <summary>
+        /// Verfica se o médico está disponivel a uma certa hora num certo dia
+        /// </summary>
+        /// <param name="diaHora"></param>
+        /// <returns>true se desponível</returns>
+        public bool EstaDisponivel(DateTime diaHora)
+        {
+            //Falta adicionar estrutura de dados 
+            return false; 
+        }
+        /// <summary>
+        /// Verfica os pacientes que vai ter num certo dia
+        /// </summary>
+        /// <param name="dia"></param>
+        /// <returns>Estrutura de dados de Paciente se houver</returns>
+        public Paciente ObterPacientesDoDia(DateOnly dia)
+        {
+            //Falta adicionar Estrutura de dados 
+            return new Paciente();
+        }
+        /// <summary>
+        /// Função para adicionar especialidades ao médico
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+        public int AdicionarEspecialidade(string esp)
+        {
+            if (esp.Equals(string.Empty))
+            {
+                return 5;
+            }
+            this.especialidade += (";" + esp);
+            return 1;
+        }
+        /// <summary>
+        /// Função para ver as coonsultas que o médico fez ao longo da sua carreira no hospital
+        /// </summary>
+        /// <returns>Lista das consultas que o medico fez</returns>
+        public Consulta ConsultasMedico()
+        {
+            //falta adicionar estrutura
+            return new Consulta();
+        }
+        /// <summary>
+        /// Função para adicionar uma consulta á agenda do médico
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+        public int AdicionarCuidadosEnfermeiro(Consulta consulta)
+        {
+            //falta adicionar estrutura
+            return 1;
+        }
+        /// <summary>
+        /// Função para remover uma consulta da agenda do médico
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+        public int RemoverCuidadosEnfermeiro(EnfermagemCuidados observacoes)
+        {
+            //falta adicionar estrutura
+            return 1;
+        }
+        /// <summary>
+        /// Função para remover uma consulta da agenda do médico através do id da consulta
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+        public int RemoverCuidadosEnfermeiro(int idConsulta)
+        {
+            //falta adicionar estrutura
+            return 1;
+        }
         public override string GetTipo()
         {
             return "Médico";
+        }
+        public override string ToString()
+        {
+            return $"Medico[especialidade='{especialidade}', numeroOrdem='{numeroOrdem}', " +
+                   $"gabinete='{gabinete}', fazUrgencias={fazUrgencias}, {base.ToString().Replace("Funcionario", "")}]";
         }
     }
 
@@ -328,9 +497,9 @@ namespace ProjetoPoon31504
     public class Enfermeiro : Funcionario
     {
         #region Atributos
-        private string categoria;
-        private string numeroRegistro;
+        private string categoria;//saude,reabilitação, etc
         private bool chefeEnfermagem;
+        //Adicionar estrutura de EnfermagemCuidados
         #endregion
 
         #region Construtor
@@ -352,26 +521,73 @@ namespace ProjetoPoon31504
                           string turno,
                           bool ativo,
                           string categoria,
-                          string numeroRegistro,
                           bool chefeEnfermagem = false)
             : base(id, nome, sobrenome, nif, morada, telefone, dataNasc, genero,
                    numFuncionario, cedulaProfissional, dataContratacao, salario, email, departamento, cargo, turno, ativo)
         {
             this.categoria = categoria;
-            this.numeroRegistro = numeroRegistro;
             this.chefeEnfermagem = chefeEnfermagem;
         }
         #endregion
 
         #region Propriedades
         public string Categoria { get { return categoria; } set { categoria = value; } }
-        public string NumeroRegistro { get { return numeroRegistro; } set { numeroRegistro = value; } }
         public bool ChefeEnfermagem { get { return chefeEnfermagem; } set { chefeEnfermagem = value; } }
         #endregion
 
+        /// <summary>
+        /// Verifica se o Enfermeiro pode ser chefe da sua especialidade
+        /// </summary>
+        /// <param name="especialidade"></param>
+        /// <return>true se cumpre requesitos</returns>
+        public bool PodeSerChefe(string especialidade)
+        {
+            if(this.ObterAnosServico()>5 && this.categoria == especialidade) return true;
+            return false;
+        }
+        /// <summary>
+        /// Função para ver os cuidados que o enfermeiro fez ao longo da sua carreira no hospital
+        /// </summary>
+        /// <returns>Devolve observacoes que o enfermeiro fez</returns>
+        public EnfermagemCuidados CuidadosEnfermeiro()
+        {
+            //falta adicionar estrutura
+            return new EnfermagemCuidados();
+        }
+        /// <summary>
+        /// Função para adicionar observacoes de cuidados que o enfermeiro fez 
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+        public int AdicionarCuidadosEnfermeiro(EnfermagemCuidados observacoes)
+        {
+            //falta adicionar estrutura
+            return 1;
+        }
+        /// <summary>
+        /// Função para remover observacoes de cuidados que o enfermeiro fez 
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+        public int RemoverCuidadosEnfermeiro(EnfermagemCuidados observacoes)
+        {
+            //falta adicionar estrutura
+            return 1;
+        }
+        /// <summary>
+        /// Função para remover observacoes de cuidados que o enfermeiro fez com o id da observacao
+        /// </summary>
+        /// <returns>cod de sucesso/erro</returns>
+        public int RemoverCuidadosEnfermeiro(int idObservação)
+        {
+            //falta adicionar estrutura
+            return 1;
+        }
         public override string GetTipo()
         {
             return "Enfermeiro";
+        }
+        public override string ToString()
+        {
+            return $"Enfermeiro[categoria='{categoria}', chefeEnfermagem={chefeEnfermagem}, {base.ToString().Replace("Funcionario", "")}]";
         }
     }
 
@@ -388,6 +604,7 @@ namespace ProjetoPoon31504
          #endregion
 
         #region Construtor
+        
         public Auxiliar(int id,
                         string nome,
                         string sobrenome,
@@ -425,5 +642,9 @@ namespace ProjetoPoon31504
         {
             return "Auxiliar";
         }
+        public override string ToString()
+{
+    return $"Auxiliar[area='{area}', funcaoPrincipal='{funcaoPrincipal}', {base.ToString().Replace("Funcionario", "")}]";
+}
     }
 }

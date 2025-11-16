@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoPoon31504")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a4e741813a5aaf723a3f55c29fb7730a73d339b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoPoon31504")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoPoon31504")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
