@@ -1,0 +1,11 @@
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\bin\Debug\net8.0\Interfaces.deps.json
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\bin\Debug\net8.0\Interfaces.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\bin\Debug\net8.0\Interfaces.pdb
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\obj\Debug\net8.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfo.cs
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\obj\Debug\net8.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\obj\Debug\net8.0\Interfaces.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\obj\Debug\net8.0\refint\Interfaces.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\obj\Debug\net8.0\Interfaces.pdb
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Interfaces\obj\Debug\net8.0\ref\Interfaces.dll

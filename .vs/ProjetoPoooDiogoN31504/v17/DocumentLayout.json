@@ -1,0 +1,999 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\gestorpacientebd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\gestorpacientebd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\exceptions\\exceptions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|solutionrelative:exceptions\\exceptions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\cama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\cama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\auxiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\auxiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\pacienteregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\pacienteregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D2A510-AA67-4E53-B544-F9E275B027B0}|Inicializa\u00E7\u00E3o\\Inicializa\u00E7\u00E3o.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\inicializa\u00E7\u00E3o\\classesauxiliares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D2A510-AA67-4E53-B544-F9E275B027B0}|Inicializa\u00E7\u00E3o\\Inicializa\u00E7\u00E3o.csproj|solutionrelative:inicializa\u00E7\u00E3o\\classesauxiliares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D2A510-AA67-4E53-B544-F9E275B027B0}|Inicializa\u00E7\u00E3o\\Inicializa\u00E7\u00E3o.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\inicializa\u00E7\u00E3o\\inicializapacientebd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D2A510-AA67-4E53-B544-F9E275B027B0}|Inicializa\u00E7\u00E3o\\Inicializa\u00E7\u00E3o.csproj|solutionrelative:inicializa\u00E7\u00E3o\\inicializapacientebd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323ABAA8-46BC-49BF-A688-9AFB93DBA224}|Ficheiros\\Ficheiros.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\ficheiros\\ficheirosgeral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323ABAA8-46BC-49BF-A688-9AFB93DBA224}|Ficheiros\\Ficheiros.csproj|solutionrelative:ficheiros\\ficheirosgeral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\exceptions\\nifinvalidoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|solutionrelative:exceptions\\nifinvalidoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\exceptions\\camaocupadaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|solutionrelative:exceptions\\camaocupadaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323ABAA8-46BC-49BF-A688-9AFB93DBA224}|Ficheiros\\Ficheiros.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\ficheiros\\ficheiros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{323ABAA8-46BC-49BF-A688-9AFB93DBA224}|Ficheiros\\Ficheiros.csproj|solutionrelative:ficheiros\\ficheiros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4146752B-822D-4A76-BC6F-33D208567E69}|Interfaces\\Interfaces.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\interfaces\\interfacecrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4146752B-822D-4A76-BC6F-33D208567E69}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\interfacecrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\resultadoexameregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\resultadoexameregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA01FACC-E794-4B60-BE16-A2E5E174C9C0}|Validacoes\\Validacoes.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\validacoes\\validacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA01FACC-E794-4B60-BE16-A2E5E174C9C0}|Validacoes\\Validacoes.csproj|solutionrelative:validacoes\\validacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F875FE2-9D96-4A6A-9C88-97D22A08EFAB}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\testesunit\u00E1rios\\testegestorpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F875FE2-9D96-4A6A-9C88-97D22A08EFAB}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|solutionrelative:testesunit\u00E1rios\\testegestorpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F875FE2-9D96-4A6A-9C88-97D22A08EFAB}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\testesunit\u00E1rios\\testenif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F875FE2-9D96-4A6A-9C88-97D22A08EFAB}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|solutionrelative:testesunit\u00E1rios\\testenif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\internamentohospitalregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\internamentohospitalregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\medicoregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\medicoregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\quartoregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\quartoregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\igestorpacientebd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\igestorpacientebd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\pacientebd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\pacientebd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\internamentoshospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\internamentoshospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\exameregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\exameregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\camaregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\camaregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\enfermeiroregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\enfermeiroregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\consultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\enfermagemcuidados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\enfermagemcuidados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\enfermeirobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\enfermeirobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\camas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\camas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\quarto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\quarto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\internamentohospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\internamentohospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\exame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\exame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\enfermeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\enfermeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\enfermagemcuidado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\enfermagemcuidado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\diagnostico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\diagnostico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\quartos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\quartos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\diagnosticoregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\diagnosticoregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\resultadoexame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\resultadoexame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\bo\\bo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{50169162-8788-416B-828A-A02AF8F559A3}|Bo\\Bo.csproj|solutionrelative:bo\\bo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\exceptions\\entidadenaoencontradaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|solutionrelative:exceptions\\entidadenaoencontradaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\exceptions\\entidadeduplicadaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C51D17-D487-4870-9567-EBE3FC7C8FDB}|Exceptions\\Exceptions.csproj|solutionrelative:exceptions\\entidadeduplicadaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\regras.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\regras.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A64CE6D1-419E-4078-B84A-5DC8F5762B99}|ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\projetopooodiogon31504\\projetopooodiogon31504.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A64CE6D1-419E-4078-B84A-5DC8F5762B99}|ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504.csproj|solutionrelative:projetopooodiogon31504\\projetopooodiogon31504.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\auxiliares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\auxiliares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\resultadoexames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\resultadoexames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\medicobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\medicobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\enfermagemcuidadosregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\enfermagemcuidadosregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\consultaregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\consultaregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\regras\\auxiliarregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316BD193-9923-4C5E-AA89-60F9AA9FB72A}|Regras\\Regras.csproj|solutionrelative:regras\\auxiliarregras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\exames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\exames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\enfermeiros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\enfermeiros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\dados\\diagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD138AFD-D5CA-48C9-9875-8581A423F86C}|Dados\\Dados.csproj|solutionrelative:dados\\diagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4146752B-822D-4A76-BC6F-33D208567E69}|Interfaces\\Interfaces.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\interfaces\\interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4146752B-822D-4A76-BC6F-33D208567E69}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A64CE6D1-419E-4078-B84A-5DC8F5762B99}|ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504.csproj|c:\\users\\aorus\\source\\repos\\projetopooodiogon31504\\projetopooodiogon31504\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A64CE6D1-419E-4078-B84A-5DC8F5762B99}|ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504.csproj|solutionrelative:projetopooodiogon31504\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FicheirosGeral.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Ficheiros\\FicheirosGeral.cs",
+              "RelativeDocumentMoniker": "Ficheiros\\FicheirosGeral.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Ficheiros\\FicheirosGeral.cs",
+              "RelativeToolTip": "Ficheiros\\FicheirosGeral.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:30:59.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NifInvalidoException.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\NifInvalidoException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\NifInvalidoException.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\NifInvalidoException.cs",
+              "RelativeToolTip": "Exceptions\\NifInvalidoException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T00:45:25.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PacienteRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\PacienteRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\PacienteRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\PacienteRegras.cs",
+              "RelativeToolTip": "Regras\\PacienteRegras.cs",
+              "ViewState": "AQIAAGQBAAAAAAAAAADwv20BAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:44:34.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Auxiliar.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Auxiliar.cs",
+              "RelativeDocumentMoniker": "Bo\\Auxiliar.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Auxiliar.cs",
+              "RelativeToolTip": "Bo\\Auxiliar.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T02:19:16.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Pessoa.cs",
+              "RelativeDocumentMoniker": "Bo\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Pessoa.cs",
+              "RelativeToolTip": "Bo\\Pessoa.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAgwJ0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:27:20.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cama.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Cama.cs",
+              "RelativeDocumentMoniker": "Bo\\Cama.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Cama.cs",
+              "RelativeToolTip": "Bo\\Cama.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwBAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:25:34.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exceptions.csproj",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\Exceptions.csproj",
+              "RelativeDocumentMoniker": "Exceptions\\Exceptions.csproj",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\Exceptions.csproj",
+              "RelativeToolTip": "Exceptions\\Exceptions.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-28T05:50:29.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorPacienteBD.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\GestorPacienteBD.cs",
+              "RelativeDocumentMoniker": "Dados\\GestorPacienteBD.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\GestorPacienteBD.cs",
+              "RelativeToolTip": "Dados\\GestorPacienteBD.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEwAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T23:31:22.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InicializaPacienteBD.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Inicializa\u00E7\u00E3o\\InicializaPacienteBD.cs",
+              "RelativeDocumentMoniker": "Inicializa\u00E7\u00E3o\\InicializaPacienteBD.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Inicializa\u00E7\u00E3o\\InicializaPacienteBD.cs",
+              "RelativeToolTip": "Inicializa\u00E7\u00E3o\\InicializaPacienteBD.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwCsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T00:06:40.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClassesAuxiliares.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Inicializa\u00E7\u00E3o\\ClassesAuxiliares.cs",
+              "RelativeDocumentMoniker": "Inicializa\u00E7\u00E3o\\ClassesAuxiliares.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Inicializa\u00E7\u00E3o\\ClassesAuxiliares.cs",
+              "RelativeToolTip": "Inicializa\u00E7\u00E3o\\ClassesAuxiliares.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T00:42:57.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CamaOcupadaException.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\CamaOcupadaException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\CamaOcupadaException.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\CamaOcupadaException.cs",
+              "RelativeToolTip": "Exceptions\\CamaOcupadaException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T02:59:31.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Ficheiros.csproj",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Ficheiros\\Ficheiros.csproj",
+              "RelativeDocumentMoniker": "Ficheiros\\Ficheiros.csproj",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Ficheiros\\Ficheiros.csproj",
+              "RelativeToolTip": "Ficheiros\\Ficheiros.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-30T01:10:07.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InterfaceCrud.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Interfaces\\InterfaceCrud.cs",
+              "RelativeDocumentMoniker": "Interfaces\\InterfaceCrud.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Interfaces\\InterfaceCrud.cs",
+              "RelativeToolTip": "Interfaces\\InterfaceCrud.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T03:01:56.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResultadoExameRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\ResultadoExameRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\ResultadoExameRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\ResultadoExameRegras.cs",
+              "RelativeToolTip": "Regras\\ResultadoExameRegras.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:45:29.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Validacoes.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Validacoes\\Validacoes.cs",
+              "RelativeDocumentMoniker": "Validacoes\\Validacoes.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Validacoes\\Validacoes.cs",
+              "RelativeToolTip": "Validacoes\\Validacoes.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:50:57.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TesteGestorPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\TestesUnit\u00E1rios\\TesteGestorPaciente.cs",
+              "RelativeDocumentMoniker": "TestesUnit\u00E1rios\\TesteGestorPaciente.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\TestesUnit\u00E1rios\\TesteGestorPaciente.cs",
+              "RelativeToolTip": "TestesUnit\u00E1rios\\TesteGestorPaciente.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwC4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T01:55:49.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TesteNif.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\TestesUnit\u00E1rios\\TesteNif.cs",
+              "RelativeDocumentMoniker": "TestesUnit\u00E1rios\\TesteNif.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\TestesUnit\u00E1rios\\TesteNif.cs",
+              "RelativeToolTip": "TestesUnit\u00E1rios\\TesteNif.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T01:35:02.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InternamentoHospitalRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\InternamentoHospitalRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\InternamentoHospitalRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\InternamentoHospitalRegras.cs",
+              "RelativeToolTip": "Regras\\InternamentoHospitalRegras.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAA4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:43:29.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MedicoRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\MedicoRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\MedicoRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\MedicoRegras.cs",
+              "RelativeToolTip": "Regras\\MedicoRegras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:43:47.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuartoRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\QuartoRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\QuartoRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\QuartoRegras.cs",
+              "RelativeToolTip": "Regras\\QuartoRegras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:44:50.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGestorPacienteBD.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\IGestorPacienteBD.cs",
+              "RelativeDocumentMoniker": "Dados\\IGestorPacienteBD.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\IGestorPacienteBD.cs",
+              "RelativeToolTip": "Dados\\IGestorPacienteBD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T04:38:59.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PacienteBD.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\PacienteBD.cs",
+              "RelativeDocumentMoniker": "Dados\\PacienteBD.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\PacienteBD.cs",
+              "RelativeToolTip": "Dados\\PacienteBD.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T23:07:51.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InternamentosHospital.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\InternamentosHospital.cs",
+              "RelativeDocumentMoniker": "Dados\\InternamentosHospital.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\InternamentosHospital.cs",
+              "RelativeToolTip": "Dados\\InternamentosHospital.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwD8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:44:20.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExameRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\ExameRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\ExameRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\ExameRegras.cs",
+              "RelativeToolTip": "Regras\\ExameRegras.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:42:23.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Paciente.cs",
+              "RelativeDocumentMoniker": "Bo\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Paciente.cs",
+              "RelativeToolTip": "Bo\\Paciente.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAADcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:27:41.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CamaRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\CamaRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\CamaRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\CamaRegras.cs",
+              "RelativeToolTip": "Regras\\CamaRegras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T02:51:57.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EnfermagemCuidados.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\EnfermagemCuidados.cs",
+              "RelativeDocumentMoniker": "Dados\\EnfermagemCuidados.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\EnfermagemCuidados.cs",
+              "RelativeToolTip": "Dados\\EnfermagemCuidados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:31:56.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EnfermeiroRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\EnfermeiroRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\EnfermeiroRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\EnfermeiroRegras.cs",
+              "RelativeToolTip": "Regras\\EnfermeiroRegras.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:41:57.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EnfermeiroBD.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\EnfermeiroBD.cs",
+              "RelativeDocumentMoniker": "Dados\\EnfermeiroBD.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\EnfermeiroBD.cs",
+              "RelativeToolTip": "Dados\\EnfermeiroBD.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:43:14.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Camas.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Camas.cs",
+              "RelativeDocumentMoniker": "Dados\\Camas.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Camas.cs",
+              "RelativeToolTip": "Dados\\Camas.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T00:59:56.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Consultas.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Consultas.cs",
+              "RelativeDocumentMoniker": "Dados\\Consultas.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Consultas.cs",
+              "RelativeToolTip": "Dados\\Consultas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:18:17.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Quarto.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Quarto.cs",
+              "RelativeDocumentMoniker": "Bo\\Quarto.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Quarto.cs",
+              "RelativeToolTip": "Bo\\Quarto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:25:08.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Medico.cs",
+              "RelativeDocumentMoniker": "Bo\\Medico.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Medico.cs",
+              "RelativeToolTip": "Bo\\Medico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:28:29.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "InternamentoHospital.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\InternamentoHospital.cs",
+              "RelativeDocumentMoniker": "Bo\\InternamentoHospital.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\InternamentoHospital.cs",
+              "RelativeToolTip": "Bo\\InternamentoHospital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:26:00.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Bo\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Funcionario.cs",
+              "RelativeToolTip": "Bo\\Funcionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:28:05.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Exame.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Exame.cs",
+              "RelativeDocumentMoniker": "Bo\\Exame.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Exame.cs",
+              "RelativeToolTip": "Bo\\Exame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:22:40.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Enfermeiro.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Enfermeiro.cs",
+              "RelativeDocumentMoniker": "Bo\\Enfermeiro.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Enfermeiro.cs",
+              "RelativeToolTip": "Bo\\Enfermeiro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:28:51.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EnfermagemCuidado.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\EnfermagemCuidado.cs",
+              "RelativeDocumentMoniker": "Bo\\EnfermagemCuidado.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\EnfermagemCuidado.cs",
+              "RelativeToolTip": "Bo\\EnfermagemCuidado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:26:36.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Diagnostico.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Diagnostico.cs",
+              "RelativeDocumentMoniker": "Bo\\Diagnostico.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Diagnostico.cs",
+              "RelativeToolTip": "Bo\\Diagnostico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:21:31.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Consulta.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Consulta.cs",
+              "RelativeDocumentMoniker": "Bo\\Consulta.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Consulta.cs",
+              "RelativeToolTip": "Bo\\Consulta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:19:32.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Pacientes.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Pacientes.cs",
+              "RelativeDocumentMoniker": "Dados\\Pacientes.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Pacientes.cs",
+              "RelativeToolTip": "Dados\\Pacientes.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T00:21:52.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Quartos.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Quartos.cs",
+              "RelativeDocumentMoniker": "Dados\\Quartos.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Quartos.cs",
+              "RelativeToolTip": "Dados\\Quartos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T18:11:15.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DiagnosticoRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\DiagnosticoRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\DiagnosticoRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\DiagnosticoRegras.cs",
+              "RelativeToolTip": "Regras\\DiagnosticoRegras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:41:02.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Medicos.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Medicos.cs",
+              "RelativeDocumentMoniker": "Dados\\Medicos.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Medicos.cs",
+              "RelativeToolTip": "Dados\\Medicos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:37:46.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ResultadoExame.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\ResultadoExame.cs",
+              "RelativeDocumentMoniker": "Bo\\ResultadoExame.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\ResultadoExame.cs",
+              "RelativeToolTip": "Bo\\ResultadoExame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:24:01.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Bo.csproj",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Bo.csproj",
+              "RelativeDocumentMoniker": "Bo\\Bo.csproj",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Bo.csproj",
+              "RelativeToolTip": "Bo\\Bo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-18T00:36:46.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EntidadeNaoEncontradaException.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\EntidadeNaoEncontradaException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\EntidadeNaoEncontradaException.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\EntidadeNaoEncontradaException.cs",
+              "RelativeToolTip": "Exceptions\\EntidadeNaoEncontradaException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T02:58:55.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EntidadeDuplicadaException.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\EntidadeDuplicadaException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\EntidadeDuplicadaException.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Exceptions\\EntidadeDuplicadaException.cs",
+              "RelativeToolTip": "Exceptions\\EntidadeDuplicadaException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T02:58:24.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Regras.csproj",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\Regras.csproj",
+              "RelativeDocumentMoniker": "Regras\\Regras.csproj",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\Regras.csproj",
+              "RelativeToolTip": "Regras\\Regras.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-26T14:47:58.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProjetoPoooDiogoN31504.csproj",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504.csproj",
+              "RelativeDocumentMoniker": "ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504.csproj",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504.csproj",
+              "RelativeToolTip": "ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-23T03:01:09.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ResultadoExames.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\ResultadoExames.cs",
+              "RelativeDocumentMoniker": "Dados\\ResultadoExames.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\ResultadoExames.cs",
+              "RelativeToolTip": "Dados\\ResultadoExames.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T18:16:30.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Auxiliares.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Auxiliares.cs",
+              "RelativeDocumentMoniker": "Dados\\Auxiliares.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Auxiliares.cs",
+              "RelativeToolTip": "Dados\\Auxiliares.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:24:38.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MedicoBD.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\MedicoBD.cs",
+              "RelativeDocumentMoniker": "Dados\\MedicoBD.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\MedicoBD.cs",
+              "RelativeToolTip": "Dados\\MedicoBD.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:45:36.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EnfermagemCuidadosRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\EnfermagemCuidadosRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\EnfermagemCuidadosRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\EnfermagemCuidadosRegras.cs",
+              "RelativeToolTip": "Regras\\EnfermagemCuidadosRegras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T01:59:04.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ConsultaRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\ConsultaRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\ConsultaRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\ConsultaRegras.cs",
+              "RelativeToolTip": "Regras\\ConsultaRegras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T02:51:59.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AuxiliarRegras.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\AuxiliarRegras.cs",
+              "RelativeDocumentMoniker": "Regras\\AuxiliarRegras.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Regras\\AuxiliarRegras.cs",
+              "RelativeToolTip": "Regras\\AuxiliarRegras.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T03:03:24.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Exames.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Exames.cs",
+              "RelativeDocumentMoniker": "Dados\\Exames.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Exames.cs",
+              "RelativeToolTip": "Dados\\Exames.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:07:38.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Enfermeiros.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Enfermeiros.cs",
+              "RelativeDocumentMoniker": "Dados\\Enfermeiros.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Enfermeiros.cs",
+              "RelativeToolTip": "Dados\\Enfermeiros.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T02:04:25.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Diagnosticos.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Diagnosticos.cs",
+              "RelativeDocumentMoniker": "Dados\\Diagnosticos.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Diagnosticos.cs",
+              "RelativeToolTip": "Dados\\Diagnosticos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:24:33.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Interfaces.csproj",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Interfaces\\Interfaces.csproj",
+              "RelativeDocumentMoniker": "Interfaces\\Interfaces.csproj",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Interfaces\\Interfaces.csproj",
+              "RelativeToolTip": "Interfaces\\Interfaces.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-23T03:00:34.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoPoooDiogoN31504\\Program.cs",
+              "ToolTip": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\ProjetoPoooDiogoN31504\\Program.cs",
+              "RelativeToolTip": "ProjetoPoooDiogoN31504\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA+wAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T02:18:55.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

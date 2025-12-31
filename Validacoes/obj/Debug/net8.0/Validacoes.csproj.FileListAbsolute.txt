@@ -1,0 +1,15 @@
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\bin\Debug\net8.0\Validacoes.deps.json
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\bin\Debug\net8.0\Validacoes.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\bin\Debug\net8.0\Validacoes.pdb
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\bin\Debug\net8.0\Exceptions.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\bin\Debug\net8.0\Exceptions.pdb
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\Validacoes.csproj.AssemblyReference.cache
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\Validacoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\Validacoes.AssemblyInfoInputs.cache
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\Validacoes.AssemblyInfo.cs
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\Validacoes.csproj.CoreCompileInputs.cache
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\Validacoes.csproj.Up2Date
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\Validacoes.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\refint\Validacoes.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\Validacoes.pdb
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Validacoes\obj\Debug\net8.0\ref\Validacoes.dll

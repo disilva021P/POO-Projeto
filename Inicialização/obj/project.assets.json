@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Bo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Bo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bo.dll": {}
+        }
+      },
+      "Dados/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Bo": "1.0.0",
+          "Exceptions": "1.0.0",
+          "Validacoes": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dados.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dados.dll": {}
+        }
+      },
+      "Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exceptions.dll": {}
+        }
+      },
+      "Ficheiros/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Bo": "1.0.0",
+          "Regras": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ficheiros.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ficheiros.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
+      },
+      "Regras/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Bo": "1.0.0",
+          "Dados": "1.0.0",
+          "Exceptions": "1.0.0",
+          "Interfaces": "1.0.0",
+          "Validacoes": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Regras.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Regras.dll": {}
+        }
+      },
+      "Validacoes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Validacoes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Validacoes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bo/1.0.0": {
+      "type": "project",
+      "path": "../Bo/Bo.csproj",
+      "msbuildProject": "../Bo/Bo.csproj"
+    },
+    "Dados/1.0.0": {
+      "type": "project",
+      "path": "../Dados/Dados.csproj",
+      "msbuildProject": "../Dados/Dados.csproj"
+    },
+    "Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../Exceptions/Exceptions.csproj",
+      "msbuildProject": "../Exceptions/Exceptions.csproj"
+    },
+    "Ficheiros/1.0.0": {
+      "type": "project",
+      "path": "../Ficheiros/Ficheiros.csproj",
+      "msbuildProject": "../Ficheiros/Ficheiros.csproj"
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
+    },
+    "Regras/1.0.0": {
+      "type": "project",
+      "path": "../Regras/Regras.csproj",
+      "msbuildProject": "../Regras/Regras.csproj"
+    },
+    "Validacoes/1.0.0": {
+      "type": "project",
+      "path": "../Validacoes/Validacoes.csproj",
+      "msbuildProject": "../Validacoes/Validacoes.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Bo >= 1.0.0",
+      "Dados >= 1.0.0",
+      "Ficheiros >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Aorus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Inicialização\\Inicialização.csproj",
+      "projectName": "Inicialização",
+      "projectPath": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Inicialização\\Inicialização.csproj",
+      "packagesPath": "C:\\Users\\Aorus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Inicialização\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Aorus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Bo.csproj": {
+              "projectPath": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Bo\\Bo.csproj"
+            },
+            "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Dados.csproj": {
+              "projectPath": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Dados\\Dados.csproj"
+            },
+            "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Ficheiros\\Ficheiros.csproj": {
+              "projectPath": "C:\\Users\\Aorus\\source\\repos\\ProjetoPoooDiogoN31504\\Ficheiros\\Ficheiros.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

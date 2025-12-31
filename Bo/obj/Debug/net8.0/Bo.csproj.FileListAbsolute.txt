@@ -1,0 +1,11 @@
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\bin\Debug\net8.0\Bo.deps.json
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\bin\Debug\net8.0\Bo.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\bin\Debug\net8.0\Bo.pdb
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\obj\Debug\net8.0\Bo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\obj\Debug\net8.0\Bo.AssemblyInfoInputs.cache
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\obj\Debug\net8.0\Bo.AssemblyInfo.cs
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\obj\Debug\net8.0\Bo.csproj.CoreCompileInputs.cache
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\obj\Debug\net8.0\Bo.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\obj\Debug\net8.0\refint\Bo.dll
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\obj\Debug\net8.0\Bo.pdb
+C:\Users\Aorus\source\repos\ProjetoPoooDiogoN31504\Bo\obj\Debug\net8.0\ref\Bo.dll

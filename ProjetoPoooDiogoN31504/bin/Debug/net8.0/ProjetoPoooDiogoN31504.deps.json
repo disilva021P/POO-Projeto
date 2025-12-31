@@ -1,0 +1,102 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProjetoPoooDiogoN31504/1.0.0": {
+        "dependencies": {
+          "Bo": "1.0.0",
+          "Exceptions": "1.0.0",
+          "Regras": "1.0.0"
+        },
+        "runtime": {
+          "ProjetoPoooDiogoN31504.dll": {}
+        }
+      },
+      "Bo/1.0.0": {
+        "runtime": {
+          "Bo.dll": {}
+        }
+      },
+      "Dados/1.0.0": {
+        "dependencies": {
+          "Bo": "1.0.0",
+          "Exceptions": "1.0.0"
+        },
+        "runtime": {
+          "Dados.dll": {}
+        }
+      },
+      "Exceptions/1.0.0": {
+        "runtime": {
+          "Exceptions.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "runtime": {
+          "Interfaces.dll": {}
+        }
+      },
+      "Regras/1.0.0": {
+        "dependencies": {
+          "Bo": "1.0.0",
+          "Dados": "1.0.0",
+          "Exceptions": "1.0.0",
+          "Interfaces": "1.0.0",
+          "Validacoes": "1.0.0"
+        },
+        "runtime": {
+          "Regras.dll": {}
+        }
+      },
+      "Validacoes/1.0.0": {
+        "dependencies": {
+          "Exceptions": "1.0.0"
+        },
+        "runtime": {
+          "Validacoes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjetoPoooDiogoN31504/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Regras/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Validacoes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
